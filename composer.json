@@ -1,0 +1,28 @@
+{
+  "name": "fullkernelpanic/http-api-client",
+  "description": "Guzzle based HTTP API client library",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "HttpApiClient\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "FullKernelPanic",
+      "email": "zackraven@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/FullKernelPanic/api-client-base.git"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "fullkernelpanic/api-client-base": "dev-master",
+    "guzzlehttp/guzzle": "^7.3",
+    "psr/log": "^3.0"
+  }
+}

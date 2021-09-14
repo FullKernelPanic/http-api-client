@@ -23,6 +23,6 @@
     "php": ">=8.0",
     "fullkernelpanic/api-client-base": "dev-master",
     "guzzlehttp/guzzle": "^7.3",
-    "psr/log": "^3.0"
+    "psr/log": " ^1.0"
   }
 }

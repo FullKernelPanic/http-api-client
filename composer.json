@@ -2,6 +2,7 @@
   "name": "fullkernelpanic/http-api-client",
   "description": "Guzzle based HTTP API client library",
   "type": "library",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "HttpApiClient\\": "src/"
@@ -21,7 +22,7 @@
   ],
   "require": {
     "php": ">=8.0",
-    "fullkernelpanic/api-client-base": "dev-master",
+    "fullkernelpanic/api-client-base": "^1.0.0",
     "guzzlehttp/guzzle": "^7.3",
     "psr/log": " ^1.0"
   }

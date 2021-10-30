@@ -5,7 +5,8 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "HttpApiClient\\": "src/"
+      "HttpApiClient\\": "src/",
+      "HttpApiClient\\Test\\": "tests/"
     }
   },
   "authors": [
@@ -25,5 +26,8 @@
     "fullkernelpanic/api-client-base": "^1.0.0",
     "guzzlehttp/guzzle": "^7.3",
     "psr/log": " ^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0.0"
   }
 }

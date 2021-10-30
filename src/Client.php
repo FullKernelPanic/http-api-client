@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace HttpApiClient;
 
 use ApiClientBase\ApiException;
@@ -42,7 +44,7 @@ class Client implements \ApiClientBase\Client
                 'Successfull api call ' . $request->getUri(),
                 [
                     'request' => $request,
-                    'response' => $response
+                    'response' => $response,
                 ]
             );
 
